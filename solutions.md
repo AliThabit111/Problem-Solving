@@ -653,5 +653,51 @@ int main() {
 
     cout << S << endl;
 
+/*
+================================================================================
+  Problem Name: George and Alex (Codeforces 467A)
+  Language    : C++
+  Purpose     : Counts how many dormitory rooms have free capacity for at least 
+                2 people (George and Alex) to move in together.
+================================================================================
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Fast I/O
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int n;
+    cin >> n; // Number of rooms
+
+    int count = 0; // Counter for suitable rooms
+
+    for (int i = 0; i < n; i++) {
+        int p, q;
+        cin >> p >> q; // p = current occupants, q = total capacity
+
+        // Check if there is enough space for 2 people
+        if (q - p >= 2) {
+            count++;
+        }
+    }
+
+    cout << count << "\n";
+
     return 0;
 }
+
+
+
+
+
+
+
+
+    return 0;
+}
+            
