@@ -654,7 +654,7 @@ int main() {
     cout << S << endl;
  ```
 ---
-## 23. George and Alex (Codeforces 467A)
+## 23. George and Alex 
 
 حساب عدد الغرف المتاحة لشخصين بناءً على السعة الكلية وعدد السكان الحاليين.
 ```cpp
