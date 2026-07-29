@@ -652,19 +652,11 @@ int main() {
     }
 
     cout << S << endl;
-```
+## 23. George and Alex (Codeforces 467A)
 
+حساب عدد الغرف المتاحة لشخصين بناءً على السعة الكلية وعدد السكان الحاليين.
 
-
- /*
-================================================================================
-  Problem Name: George and Alex (Codeforces 467A)
-  Language    : C++
-  Purpose     : Counts how many dormitory rooms have free capacity for at least 
-                2 people (George and Alex) to move in together.
-================================================================================
-*/
-
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -693,9 +685,3 @@ int main() {
 
     return 0;
 }
-
-
-
-    return 0;
-}
- ```           
