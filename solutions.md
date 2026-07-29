@@ -655,6 +655,7 @@ int main() {
 
 ```cpp
 
+<br><br>
 /*
 ================================================================================
   Problem Name: George and Alex (Codeforces 467A)
@@ -692,11 +693,6 @@ int main() {
 
     return 0;
 }
-
-
-
-
-
 
 
 
