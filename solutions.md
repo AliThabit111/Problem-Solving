@@ -619,6 +619,39 @@ int main ()
 
 ---
 
-## المسائل التي لم يكتمل حلها في هذه الجلسة
 
-- **Year of Distinct Digits** (إيجاد أصغر سنة أكبر من سنة معينة بحيث تكون كل أرقامها مختلفة) — كنا في منتصف الحل باستخدام `while` loop و `set<char>`.
+## 22. Queue at the School
+محاكاة التغييرات في مصفوفة/نص خطوة بخطوة عبر الزمن (Simulation)
+
+```cpp
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
+
+int main() {
+    
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int n, t;
+    cin >> n >> t;
+
+    string S;
+    cin >> S;
+
+    
+    while (t--) {
+        for (size_t i = 0; i < n - 1; i++) {
+           
+            if (S[i] == 'B' && S[i + 1] == 'G') {
+                swap(S[i], S[i + 1]);
+                i++; 
+            }
+        }
+    }
+
+    cout << S << endl;
+
+    return 0;
+}
