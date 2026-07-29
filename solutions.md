@@ -651,11 +651,11 @@ int main() {
         }
     }
 
-    cout << S << endl;
+    cout << S << endl; ```
+---
 ## 23. George and Alex (Codeforces 467A)
 
 حساب عدد الغرف المتاحة لشخصين بناءً على السعة الكلية وعدد السكان الحاليين.
-
 ```cpp
 #include <iostream>
 
