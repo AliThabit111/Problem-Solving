@@ -652,10 +652,11 @@ int main() {
     }
 
     cout << S << endl;
+```
 
-```cpp
 
-## /*
+
+ /*
 ================================================================================
   Problem Name: George and Alex (Codeforces 467A)
   Language    : C++
@@ -697,4 +698,4 @@ int main() {
 
     return 0;
 }
-            
+ ```           
