@@ -651,7 +651,8 @@ int main() {
         }
     }
 
-    cout << S << endl; ```
+    cout << S << endl;
+ ```
 ---
 ## 23. George and Alex (Codeforces 467A)
 
