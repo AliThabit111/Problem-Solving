@@ -655,8 +655,7 @@ int main() {
 
 ```cpp
 
-<br><br>
-/*
+## /*
 ================================================================================
   Problem Name: George and Alex (Codeforces 467A)
   Language    : C++
